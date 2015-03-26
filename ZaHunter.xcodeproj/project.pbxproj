@@ -14,6 +14,7 @@
 		18EF71561AC33A940018DB28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EF71551AC33A940018DB28 /* Images.xcassets */; };
 		18EF71591AC33A940018DB28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EF71571AC33A940018DB28 /* LaunchScreen.xib */; };
 		18EF71651AC33A940018DB28 /* ZaHunterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EF71641AC33A940018DB28 /* ZaHunterTests.m */; };
+		18EF717B1AC375C30018DB28 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF717A1AC375C30018DB28 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		18EF715E1AC33A940018DB28 /* ZaHunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaHunterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EF71631AC33A940018DB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18EF71641AC33A940018DB28 /* ZaHunterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaHunterTests.m; sourceTree = "<group>"; };
+		18EF717A1AC375C30018DB28 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EF717B1AC375C30018DB28 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +91,7 @@
 				18EF71521AC33A940018DB28 /* Main.storyboard */,
 				18EF71551AC33A940018DB28 /* Images.xcassets */,
 				18EF71571AC33A940018DB28 /* LaunchScreen.xib */,
+				18EF717A1AC375C30018DB28 /* CoreLocation.framework */,
 				18EF71481AC33A940018DB28 /* Supporting Files */,
 			);
 			path = ZaHunter;

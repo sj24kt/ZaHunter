@@ -110,6 +110,9 @@
                                         <include reference="1gE-wF-I1s"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="routeMyJourney:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Qil-Nd-gTA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.82329515983983248" green="0.82525580752212391" blue="0.82397401207203624" alpha="1" colorSpace="calibratedRGB"/>
@@ -176,9 +179,19 @@
                                 </segments>
                             </segmentedControl>
                             <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="walkDriveSegmentTapped:" destination="vXZ-lx-hvc" id="3DY-rC-0mt"/>
+                            </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Map" id="2Ow-pN-p6A"/>
+                        <barButtonItem key="rightBarButtonItem" title="Map" id="2Ow-pN-p6A">
+                            <connections>
+                                <action selector="mapButtonOnPressed:" destination="vXZ-lx-hvc" id="myG-ON-159"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="myTextView" destination="SfR-mH-jqK" id="6fm-8J-K5Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
